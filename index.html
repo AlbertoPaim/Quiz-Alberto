@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+ 
+<div class="placar">Acertos: 10</div>
+<div class="time">Teste</div>  
+    <div class="questionArea">
+        <div class="progress">
+        <div class="progress--bar"></div>
+
+        
+    </div>
+        <div class="question">...</div>
+        <div class="options">
+            
+        </div>
+        
+    </div>
+
+    <div class="scoreArea">
+        <img src="prize.png" class="prizeImage animation" />
+        <div class="scoreText1">Parabéns!</div>
+        <div class="scorePct">Acertou 99%</div>
+        <div class="scoreText2"></div>
+        <button onclick="reset()">Fazer novamente</button>
+    </div>
+
+    <div class="answer">
+         <button onclick="next()" class="next">Avançar</button>
+        <div class="why"></div>
+       
+    </div>
+
+    <footer>Criado por <a href="https://www.instagram.com/albertoopaim/" target="_blank">Alberto Paim</a> </footer>
+
+    <audio src="audios/theme1.MP3" id="ambient"></audio>
+    <audio src="audios/click.MP3"  id="click"></audio>
+    <audio src="audios/errou.MP3"  id="error"></audio>
+    <audio src="audios/burro.MP3" id="burro"></audio>
+    <audio src="audios/homer.MP3" id="homer"></audio>
+    <audio src="audios/alien.MP3" id="alien"></audio>
+    <audio src="audios/dilma" id="dilma"></audio>
+
+
+
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
